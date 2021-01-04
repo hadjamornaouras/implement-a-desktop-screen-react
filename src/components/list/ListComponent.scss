@@ -1,0 +1,92 @@
+.container-list {
+  background-color: #1976d2;
+  h1 {
+    padding-top: 1rem !important;
+    color: white;
+    display: flex;
+    padding: 0 16px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text {
+    padding-bottom: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 100;
+  }
+  .content {
+    display: flex;
+    padding: 0 16px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+    .mat-card {
+      display: flex;
+      flex-direction: column;
+      max-width: min-content;
+      padding: 2rem;
+    }
+    .title {
+      font-size: 1rem;
+      white-space: nowrap;
+      width: 160px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+    .card {
+      border-radius: 4px;
+      border: 1px solid #eee;
+      background-color: white;
+      height: 40px;
+      margin: 0 8px 16px;
+      padding: 0 16px 16px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      flex-direction: row;
+      align-items: center;
+      transition: all 0.2s ease-in-out;
+      line-height: 24px;
+      .right {
+        display: flex;
+        justify-content: flex-end;
+      }
+      ul {
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+      }
+      .starts_number {
+        .MuiSvgIcon-root {
+          color: #5edaa7 !important;
+        }
+      }
+      .starts {
+        .MuiSvgIcon-root {
+          color: #dcdcdc !important;
+        }
+      }
+      .close {
+        display: flex;
+        justify-content: flex-end;
+        cursor: pointer;
+        padding: 1rem;
+        .MuiSvgIcon-root {
+          font-size: 1.5rem;
+          color: #dcdcdc !important;
+          padding-left: 1rem;
+        }
+      }
+    }
+    .message {
+      padding: 2rem;
+      width: 200px;
+      display: flex;
+      justify-content: center;
+      color: #e02ae1;
+    }
+  }
+}

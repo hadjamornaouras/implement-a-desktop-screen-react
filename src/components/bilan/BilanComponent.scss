@@ -1,0 +1,50 @@
+.container-bilan {
+  background-color: #e02ae1;
+  padding-bottom: 1rem;
+  margin-top: -0.5rem;
+  height: 26vh;
+  h4 {
+    padding-top: 2rem !important;
+    color: white;
+    display: flex;
+    padding: 0 16px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .span {
+    color: white;
+    display: flex;
+    padding: 0 16px;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 100;
+    font-size: 0.8rem;
+    padding-top: 1rem;
+  }
+  .btn {
+    padding-top: 1rem !important;
+    display: flex;
+    padding: 0 16px;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 100;
+    .MuiButton-root {
+      border-radius: 0;
+    }
+  }
+  .button {
+    color: #e02ae1;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: none !important;
+    line-height: 2;
+    letter-spacing: none;
+    text-transform: initial !important;
+    &:hover {
+      color: white;
+    }
+    .MuiButton-root {
+      border-radius: none;
+    }
+  }
+}

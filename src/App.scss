@@ -1,0 +1,22 @@
+.container {
+  //max-width: 1260px;
+  margin: auto;
+  //padding: 2rem !important;
+  white-space: nowrap !important;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 8px 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .spacer {
+    flex: 1;
+  }
+}

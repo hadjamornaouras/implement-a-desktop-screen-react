@@ -1,0 +1,14 @@
+@font-face{
+  src: url(font/avenirltstd-light.otf);
+  font-family: avenir;
+}
+
+body {
+  margin: 0;
+  font-family:avenir ;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
